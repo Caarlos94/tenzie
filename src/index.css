@@ -93,9 +93,19 @@ body {
 
 @media (max-width: 600px) {
     .tenzie-cont {
-        width: 90vw;
+        width: 92vw;
     }
     .tenzie-container {
         gap: 10px;
     }
   }
+
+@media (max-width: 400px) {
+    .die-face {
+        height: 52px;
+        width: 52px;
+    }
+    .instruction {
+        font-size: 1.2rem;
+    }
+}
